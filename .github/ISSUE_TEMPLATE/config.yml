@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the guide
+    url: https://ductforge.debugswift.com/guide
+    about: Step-by-step, in English, Bengali and Hindi.
+  - name: Email DebugSwift
+    url: mailto:hello@debugswift.com
+    about: For anything you'd rather not post in public.

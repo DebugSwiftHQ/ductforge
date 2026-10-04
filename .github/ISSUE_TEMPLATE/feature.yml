@@ -1,0 +1,27 @@
+name: Ask for a fitting or feature
+description: A piece DuctForge can't measure yet, or something that would save you time.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you need?
+      description: If it's a fitting, describe it or link a drawing of one. A sketch photo is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: By hand, another app, a spreadsheet. This tells us what the result has to match.
+  - type: dropdown
+    id: role
+    attributes:
+      label: What best describes your work?
+      options:
+        - Fabricator or sheet-metal shop
+        - HVAC contractor or installer
+        - Estimator or quantity surveyor
+        - Consultant or designer
+        - Student
+        - Other

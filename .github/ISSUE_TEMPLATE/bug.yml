@@ -1,0 +1,67 @@
+name: Report a wrong result or a bug
+description: A quantity, drawing or export in DuctForge that looks wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A wrong number is the most useful thing you can report, so please include the dimensions you typed.
+        Every formula DuctForge uses is listed on the [standards page](https://ductforge.debugswift.com/standards). If a result disagrees with it, say which line.
+  - type: dropdown
+    id: piece
+    attributes:
+      label: Which piece?
+      options:
+        - Straight duct (rectangular)
+        - Transition
+        - Elbow
+        - Offset
+        - Collar
+        - Y-piece
+        - Round duct
+        - Gored round elbow
+        - Concentric cone
+        - Square-to-round
+        - A flat piece (plate, circle, ring, frame, oval, triangle, trapezoid)
+        - Not about one piece (export, totals, layout, guide)
+    validations:
+      required: true
+  - type: dropdown
+    id: standard
+    attributes:
+      label: Measuring standard
+      options:
+        - Commercial billing
+        - Shop fabrication
+        - Not sure
+  - type: dropdown
+    id: units
+    attributes:
+      label: Units
+      options:
+        - Metric
+        - Imperial
+  - type: textarea
+    id: input
+    attributes:
+      label: What you entered
+      description: The dimensions, exactly as you typed them.
+      placeholder: "W 600, H 400, L 1200, gauge auto"
+    validations:
+      required: true
+  - type: textarea
+    id: got
+    attributes:
+      label: What DuctForge showed
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and why
+      description: For example a hand calculation, or the figure your estimating software gives.
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: "Android phone, Chrome"
