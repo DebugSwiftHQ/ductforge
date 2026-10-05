@@ -4,7 +4,7 @@
 
 **Live:** https://ductforge.debugswift.com · free, no sign-up, works offline once installed
 
-![DuctForge: a square-to-round transition in isometric view](assets/desktop.png)
+![DuctForge on desktop, showing a square-to-round transition in 3D, and on a phone](assets/showcase.png)
 
 ## What it covers
 
@@ -17,8 +17,6 @@
 - **A printable takeoff sheet,** every part switchable, previewed live and saved as PDF
 
 Takeoffs stay on your device. Nothing is uploaded.
-
-<img src="assets/phone.png" alt="DuctForge on a phone" width="300">
 
 ## Documentation
 
