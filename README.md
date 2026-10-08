@@ -4,7 +4,7 @@
 
 **Live:** https://ductforge.debugswift.com · free, no sign-up, works offline once installed
 
-![DuctForge on desktop, showing a square-to-round transition in 3D, and on a phone](assets/showcase.png)
+![DuctForge on a laptop (a square-to-round in 3D), a tablet (its blueprint) and a phone](assets/showcase.png)
 
 ## What it covers
 
